@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Businesses on David McKinnon | Entrepreneur &amp; Business Leader</title>
-    <link>http://localhost:1314/business/</link>
+    <link>http://localhost:1313/business/</link>
     <description>Recent content in Businesses on David McKinnon | Entrepreneur &amp; Business Leader</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1314/business/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/business/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

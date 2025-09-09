@@ -30,12 +30,6 @@ shortname = 'themefisher-template' # we use disqus to show comments in blog post
 [permalinks.page]
 "pages" = "/:slugorcontentbasename/"
 
-########################## Redirects ############################
-[[redirects]]
-from = "/"
-to = "/about/"
-status = 301
-
 
 ########################## Pagination ############################
 [pagination]
