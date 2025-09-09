@@ -7,18 +7,9 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Business"
+name = "Portfolio"
+url = "/portfolio"
 weight = 3
-
-[[main]]
-parent = "Business"
-name = "Current Ventures"
-url = "/business/current"
-
-[[main]]
-parent = "Business"
-name = "Alumni Business"
-url = "/business/alumni"
 
 [[main]]
 name = "Recognition"
@@ -46,8 +37,8 @@ weight = 7
 
 # footer menu
 [[footer]]
-name = "Business"
-url = "/business/current"
+name = "Portfolio"
+url = "/portfolio"
 weight = 2
 
 [[footer]]
