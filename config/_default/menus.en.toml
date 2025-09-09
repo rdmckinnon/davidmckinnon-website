@@ -1,0 +1,71 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Business"
+weight = 3
+
+[[main]]
+parent = "Business"
+name = "Current Ventures"
+url = "/business/current"
+
+[[main]]
+parent = "Business"
+name = "Alumni Business"
+url = "/business/alumni"
+
+[[main]]
+name = "Recognition"
+url = "/recognition"
+weight = 4
+
+[[main]]
+name = "Giving Back"
+url = "/giving-back"
+weight = 5
+
+[[main]]
+name = "Media"
+weight = 6
+
+[[main]]
+parent = "Media"
+name = "Podcasts"
+url = "/media/podcasts"
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 7
+
+# footer menu
+[[footer]]
+name = "Business"
+url = "/business/current"
+weight = 2
+
+[[footer]]
+name = "Recognition"
+url = "/recognition"
+weight = 3
+
+[[footer]]
+name = "Giving Back"
+url = "/giving-back"
+weight = 4
+
+[[footer]]
+name = "Media"
+url = "/media/podcasts"
+weight = 5
+
+[[footer]]
+name = "Contact"
+url = "/contact"
+weight = 6

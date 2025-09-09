@@ -1,0 +1,167 @@
+{{ define "main" }}
+<!-- Hero Section without breadcrumb -->
+<section class="section-sm bg-gradient-to-b from-body to-theme-light">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="text-center lg:col-12">
+        <h1 class="mb-4">Alumni Business Ventures</h1>
+        <p class="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">{{ .Params.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ if .Content }}
+<section class="section py-24">
+  <div class="container max-w-7xl">
+    <!-- Portfolio Grid - Alumni Success Stories -->
+    <div class="space-y-24">
+      
+      <!-- Service Brands International Acquisition -->
+      <div>
+        <h2 class="text-lg uppercase tracking-widest text-gray-500 font-semibold mb-12">Major Exit Success</h2>
+        <div class="grid grid-cols-1 gap-12">
+          <div class="group">
+            <div class="bg-white border border-gray-200 hover:border-gray-300 rounded-xl p-12 transition-all duration-300 hover:shadow-xl">
+              <div class="flex flex-col lg:flex-row items-start gap-12">
+                <!-- Logo Section -->
+                <div class="flex-shrink-0 w-32 h-32 flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl">
+                  <img src="/images/dwyer.png" alt="Dwyer Group" class="w-24 h-24 object-contain filter grayscale group-hover:filter-none transition-all duration-300">
+                </div>
+                
+                <!-- Content Section -->
+                <div class="flex-1">
+                  <div class="flex items-center gap-3 mb-4">
+                    <h3 class="text-3xl font-bold text-gray-900">Service Brands International</h3>
+                    <div class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
+                      Acquired 2015
+                    </div>
+                  </div>
+                  
+                  <div class="text-lg text-gray-700 mb-6">
+                    <strong>Acquired by Dwyer Group</strong> - A landmark acquisition that added three major franchise brands to their impressive portfolio.
+                  </div>
+                  
+                  <p class="text-base text-gray-600 leading-relaxed mb-6">
+                    As co-founder of Service Brands International (SBI), David built companies such as <strong>Molly Maid</strong>, <strong>Mr. Handyman</strong> and <strong>ProTect Painters</strong> to encompass more than <strong>1,000 franchises in half a dozen countries</strong>.
+                  </p>
+
+                  <!-- Key Achievements -->
+                  <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="text-center p-4 bg-blue-50 rounded-lg">
+                      <div class="text-2xl font-bold text-blue-600">1,000+</div>
+                      <div class="text-sm text-blue-700">Franchises</div>
+                    </div>
+                    <div class="text-center p-4 bg-green-50 rounded-lg">
+                      <div class="text-2xl font-bold text-green-600">6</div>
+                      <div class="text-sm text-green-700">Countries</div>
+                    </div>
+                    <div class="text-center p-4 bg-purple-50 rounded-lg">
+                      <div class="text-2xl font-bold text-purple-600">3</div>
+                      <div class="text-sm text-purple-700">Major Brands</div>
+                    </div>
+                  </div>
+
+                  <p class="text-base text-gray-600 leading-relaxed mb-6">
+                    This successful exit demonstrated the value of David's approach to building recognizable brands and empowering franchise partners worldwide. The acquisition represented a significant milestone in franchise industry consolidation and validated the strength of the Service Brands International business model.
+                  </p>
+
+                  <!-- Press Release Link -->
+                  <div class="border-t border-gray-200 pt-6">
+                    <p class="text-sm text-gray-500 mb-3">Related Press Release:</p>
+                    <a href="https://www.prnewswire.com/news-releases/dwyer-group-acquires-service-brands-international-adding-molly-maid-mr-handyman-and-protect-painters-to-the-portfolio-300098720.html" 
+                       target="_blank" 
+                       class="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium group-hover:underline">
+                      Dwyer Group Acquires Service Brands International
+                      <svg class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Individual Franchise Brands -->
+      <div>
+        <h2 class="text-lg uppercase tracking-widest text-gray-500 font-semibold mb-12">Franchise Brands Built</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          
+          <!-- Molly Maid -->
+          <div class="group">
+            <div class="bg-white border border-gray-200 hover:border-gray-300 rounded-xl p-10 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 text-center">
+              <div class="w-20 h-20 mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-pink-50 to-pink-100 rounded-xl">
+                <div class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3">Molly Maid</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">Professional residential cleaning services franchise with hundreds of locations worldwide.</p>
+            </div>
+          </div>
+
+          <!-- Mr. Handyman -->
+          <div class="group">
+            <div class="bg-white border border-gray-200 hover:border-gray-300 rounded-xl p-10 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 text-center">
+              <div class="w-20 h-20 mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl">
+                <div class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3">Mr. Handyman</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">Home improvement and repair services franchise serving residential and commercial customers.</p>
+            </div>
+          </div>
+
+          <!-- ProTect Painters -->
+          <div class="group">
+            <div class="bg-white border border-gray-200 hover:border-gray-300 rounded-xl p-10 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 text-center">
+              <div class="w-20 h-20 mx-auto mb-6 flex items-center justify-center bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl">
+                <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                  <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+                  </svg>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3">ProTect Painters</h3>
+              <p class="text-sm text-gray-600 leading-relaxed">Professional painting services franchise specializing in residential and commercial projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Success Metrics Section -->
+      <div class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-3xl p-12 text-center">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Franchise Empire Success</h2>
+        <div class="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div>
+            <div class="text-4xl font-bold text-blue-600 mb-2">1,000+</div>
+            <div class="text-gray-600">Total Franchises</div>
+          </div>
+          <div>
+            <div class="text-4xl font-bold text-green-600 mb-2">6</div>
+            <div class="text-gray-600">Countries</div>
+          </div>
+          <div>
+            <div class="text-4xl font-bold text-purple-600 mb-2">3</div>
+            <div class="text-gray-600">Major Brands</div>
+          </div>
+          <div>
+            <div class="text-4xl font-bold text-orange-600 mb-2">2015</div>
+            <div class="text-gray-600">Successful Exit</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
