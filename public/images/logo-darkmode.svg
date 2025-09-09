@@ -1,8 +1,0 @@
-<svg width="300" height="48" viewBox="0 0 300 48" xmlns="http://www.w3.org/2000/svg">
-  <!-- Hexagonal background -->
-  <polygon points="12,3 36,3 45,24 36,45 12,45 3,24" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
-  <!-- Letter D -->
-  <text x="24" y="32" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="black" text-anchor="middle">D</text>
-  <!-- David McKinnon text -->
-  <text x="60" y="32" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff">David McKinnon</text>
-</svg>
