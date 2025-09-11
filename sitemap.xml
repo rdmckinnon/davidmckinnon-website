@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://davidmckinnon.com/</loc><lastmod>2022-04-04T05:00:00+00:00</lastmod></url><url><loc>https://davidmckinnon.com/business/alumni/</loc></url><url><loc>https://davidmckinnon.com/business/</loc></url><url><loc>https://davidmckinnon.com/categories/</loc></url><url><loc>https://davidmckinnon.com/contact/</loc></url><url><loc>https://davidmckinnon.com/business/current/</loc></url><url><loc>https://davidmckinnon.com/elements/</loc></url><url><loc>https://davidmckinnon.com/giving-back/</loc></url><url><loc>https://davidmckinnon.com/recognition/</loc></url><url><loc>https://davidmckinnon.com/media/podcasts/</loc></url><url><loc>https://davidmckinnon.com/media/</loc></url><url><loc>https://davidmckinnon.com/about/</loc></url><url><loc>https://davidmckinnon.com/pages/</loc></url><url><loc>https://davidmckinnon.com/portfolio/</loc></url><url><loc>https://davidmckinnon.com/privacy-policy/</loc></url><url><loc>https://davidmckinnon.com/sections/</loc></url><url><loc>https://davidmckinnon.com/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://davidmckinnon.com/</loc>
+    <lastmod>2022-04-04T05:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidmckinnon.com/business/alumni/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/business/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/categories/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/contact/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/business/current/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/elements/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/giving-back/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/recognition/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/media/podcasts/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/media/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/about/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/pages/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/portfolio/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/privacy-policy/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/sections/</loc>
+  </url><url>
+    <loc>https://davidmckinnon.com/tags/</loc>
+  </url>
+</urlset>
